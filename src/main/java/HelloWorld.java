@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "WELCOME TO MY WORLD nocache");
+		get("/hello", (req, res) -> "WELCOME TO DEVOPS WORLD");
 	}
 }
